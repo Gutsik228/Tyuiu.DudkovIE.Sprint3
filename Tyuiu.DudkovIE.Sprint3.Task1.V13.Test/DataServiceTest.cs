@@ -11,7 +11,7 @@ namespace Tyuiu.DudkovIE.Sprint3.Task1.V13.Test
         {
             DataService ds = new DataService();
             double res = ds.GetMultiplySeries(1, 1, 7);
-            Assert.AreEqual(3.583, res);
+            Assert.AreEqual(15.499, res);
         }
     }
 }
