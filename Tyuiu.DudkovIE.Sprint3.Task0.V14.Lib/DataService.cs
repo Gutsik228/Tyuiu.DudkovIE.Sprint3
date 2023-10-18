@@ -13,7 +13,7 @@ namespace Tyuiu.DudkovIE.Sprint3.Task0.V14.Lib
             double res = 0;
             for(int i = startValue; i <= stopValue; i++)
             {
-                res = Math.Pow(1 / Math.Pow(i, 2), -1);
+                res += Math.Pow(1 / Math.Pow(i, 2), -1);
             }
             return Math.Round(res, 3);
         }
