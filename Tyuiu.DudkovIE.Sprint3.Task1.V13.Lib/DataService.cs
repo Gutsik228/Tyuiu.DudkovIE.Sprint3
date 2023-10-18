@@ -14,7 +14,7 @@ namespace Tyuiu.DudkovIE.Sprint3.Task1.V13.Lib
             int i = 1;
             while(i <= 7)
             {
-                res = Math.Pow(1 / Math.Pow(1.2, i), -1);
+                res += Math.Pow(1 / Math.Pow(1.2, i), -1);
                 i++;
             }
             return Math.Round(res, 3);
